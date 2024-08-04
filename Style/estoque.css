@@ -1,0 +1,165 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+}
+   
+img {
+    width: 200px;
+    padding: 30px;
+    margin-left: 0px;
+    padding-top: 0;
+}
+nav.menu-lateral{
+    width: 60px;
+    height: 150%;
+    background-color: black;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 #4C3A3A;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: .5s;
+}
+
+nav.menu-lateral:hover{
+    width: 300px;
+}
+
+.btn-expandir{
+    width: 80;
+    padding-left: 0px;
+    margin-bottom: 20px;
+}
+
+.btn-expandir > i{
+    color: blanchedalmond;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: .3s;
+}
+
+ul li.item-menu:hover{
+    background: #4C3A3A;
+    
+
+}
+
+ul li.item-menu a{
+    color: blanchedalmond;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20% 4%;
+    display: flex;
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+ul li.item-menu a .txt-link{
+    margin-left: 40px;
+}
+
+ul li.item-menu a .icon > i{
+    font-size: 20px;
+    margin-left: -40px;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.logo img {
+    width: 200px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.stock-control-box h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-form, .stock-list {
+    margin-top: 20px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #4C3A3A;
+}
+
+.product-list {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.product-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.product-item:last-child {
+    border-bottom: none;
+}
+
+.product-actions button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.product-actions button:hover {
+    background-color: #c82333;
+}
